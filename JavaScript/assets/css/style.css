@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+} 
+a{
+    font-size: 30px;
+}
+.contenedor{
+    margin: 5%;
+}
+.caja1{
+    text-align: center;
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 5%;
+    background-color:white;
+    color: rgb(36, 27, 2);
+}
+
+.mensajeEnviado {
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.errordatos{
+    color: rgb(226, 25, 25);
+    font-weight: bold;
+}
+.errorasunto{
+    color: rgb(226, 25, 25);
+    font-weight: bold;
+}
+.errormensaje{
+    color: rgb(226, 25, 25);
+    font-weight: bold;
+}
+.boton{
+    background-color: rgb(33, 185, 245);
+    color: white;
+}
